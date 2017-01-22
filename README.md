@@ -1,7 +1,6 @@
 ### 基于Servlet 的MVC框架.
 ---
 
-[PurityConfig 配置] PurityConfig 配置
 
 <H4>快速开始</H4>
 	
@@ -64,8 +63,8 @@
 		<version>2.6.3</version>
 	</dependency> 
 
-PurityConfig 配置
--------
+<H4>PurityConfig 配置</H4>
+
 1、Controller 类包配置，在Purity 容器初始化时只会在指定包下扫描标 `Controller` 的类。
 		
 		//必须配置.
@@ -113,8 +112,8 @@ PurityConfig 配置
 
 
 
-MVC 相关注解
-------
+<H4>MVC 相关注解</H4>
+
 1、`@Route` 路由定义：
 	
 	@Route(path = "/index", method = {"GET"})
