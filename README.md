@@ -1,7 +1,9 @@
 ### 基于Servlet 的MVC框架.
 ---
 
-[toc]<H4>快速开始</H4>
+[PurityConfig 配置] PurityConfig 配置
+
+<H4>快速开始</H4>
 	
 1、实现 `Bootstrap` 回调接口，实现init()方法。在 `init()` 方法中进行相关配置(No-XML)。 对 `PurityConfig` 不可实例化类的相关静态字段配置。
 
